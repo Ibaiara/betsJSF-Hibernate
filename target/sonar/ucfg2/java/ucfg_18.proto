@@ -1,0 +1,15 @@
+
++domain.Event#getEventDate()Ljava/util/Date;m
+cC:/Users/user/Desktop/UPV/3Âº/IS/2.parte/Work-space-2.parte/BetsJSF/src/main/java/domain/Event.javaC C("1*˜
+1D	 D(e
+c
+D	 D(
+%0java.util.Date"__id*;
+
+__unknown_file (*
+domain.Event"
+	eventDate""
+D D(
+
+%0java.util.DateB
+domain.EventH

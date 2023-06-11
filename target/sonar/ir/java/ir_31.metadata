@@ -1,0 +1,4 @@
+modelo.bean.queryQuestionsBean#instance-init#
+java.util.ArrayList#<init>()V
+modelo.bean.FacadeBean#getBusinessLogic()LbusinessLogic/BLFacade;
+java.util.ArrayList#instance-init#

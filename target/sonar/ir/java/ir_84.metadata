@@ -1,0 +1,2 @@
+businessLogic.BLFacadeImplementation#<init>()V
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;

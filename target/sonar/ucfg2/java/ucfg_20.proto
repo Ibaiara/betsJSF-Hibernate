@@ -1,0 +1,39 @@
+
+)domain.Event#toString()Ljava/lang/String;m
+cC:/Users/user/Desktop/UPV/3Âº/IS/2.parte/Work-space-2.parte/BetsJSF/src/main/java/domain/Event.javaL L("1*ð
+1M	 M(j
+h
+M	 M(
+%0java.lang.Integer"__id*=
+
+__unknown_file (!*
+domain.Event"
+eventNumberh
+f
+M	 M(
+%1java.lang.String"__concat*%
+M	 M(
+
+%0java.lang.Integer*
+M M(
+;i
+g
+M M($
+%2java.lang.String"__id*=
+
+__unknown_file (!*
+domain.Event"
+descriptionz
+x
+M	 M($
+%3java.lang.String"__concat*$
+M	 M(
+
+%1java.lang.String*$
+M M($
+
+%2java.lang.String"$
+M M(%
+
+%3java.lang.StringB
+domain.EventH

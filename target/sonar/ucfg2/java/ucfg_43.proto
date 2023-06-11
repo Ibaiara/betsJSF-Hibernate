@@ -1,0 +1,14 @@
+
+Ihibernate.HibernateUtil#getSessionFactory()Lorg/hibernate/SessionFactory;x
+nC:/Users/user/Desktop/UPV/3Âº/IS/2.parte/Work-space-2.parte/BetsJSF/src/main/java/hibernate/HibernateUtil.java  (1"1*›
+1 (Z
+X
+ ("
+%0org.hibernate.SessionFactory"__id*"
+
+__unknown_file (
+"""0
+ ($
+"
+%0org.hibernate.SessionFactoryB"
+hibernate.HibernateUtilH

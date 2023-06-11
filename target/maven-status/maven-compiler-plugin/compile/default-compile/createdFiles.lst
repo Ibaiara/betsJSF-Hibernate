@@ -1,0 +1,14 @@
+modelo\bean\queryQuestionsBean.class
+exceptions\QuestionAlreadyExist.class
+dataAccess\DataAccessInterface.class
+exceptions\EventFinished.class
+configuration\UtilDate.class
+domain\Question.class
+businessLogic\BLFacade.class
+modelo\bean\FacadeBean.class
+businessLogic\BLFacadeImplementation.class
+configuration\ConfigXML.class
+hibernate\HibernateUtil.class
+domain\Event.class
+dataAccess\DataAccess.class
+modelo\bean\createQuestionsBean.class

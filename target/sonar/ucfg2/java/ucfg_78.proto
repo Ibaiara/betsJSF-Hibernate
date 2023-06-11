@@ -1,0 +1,34 @@
+
+UbusinessLogic.BLFacadeImplementation#getEventsMonth(Ljava/util/Date;)Ljava/util/List;Ö
+{C:/Users/user/Desktop/UPV/3¬∫/IS/2.parte/Work-space-2.parte/BetsJSF/src/main/java/businessLogic/BLFacadeImplementation.java^ ^(!"1*π
+1_ _(é
+ã
+_ _($
+%0dataAccess.DataAccessInterface"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerêç
+_ _(2
+%1java.util.List"OdataAccess.DataAccessInterface#getEventsMonth(Ljava/util/Date;)Ljava/util/List;*B
+
+__unknown_file (&
+$
+%0dataAccess.DataAccessInterface*4
+
+__unknown_file (
+
+datejava.util.Date2 getEventsMonth(Ljava/util/Date;)_
+]
+_ _(3
+datesjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List"%
+` `(
+
+datesjava.util.List:"
+^" ^(+
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementationH

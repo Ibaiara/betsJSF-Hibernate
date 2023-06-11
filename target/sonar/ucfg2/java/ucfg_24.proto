@@ -1,0 +1,95 @@
+
+(domain.Event#equals(Ljava/lang/Object;)Zm
+cC:/Users/user/Desktop/UPV/3¬∫/IS/2.parte/Work-space-2.parte/BetsJSF/src/main/java/domain/Event.javax x("startingBlock*%
+2
+Å
+ Å("
+
+Å Å(
+""*⁄
+3 (`
+^
+ (
+otherdomain.Event"__id*5
+
+__unknown_file (
+
+objjava.lang.Objectl
+j
+
+Ä Ä(
+%2java.lang.Integer"__id*=
+
+__unknown_file (!*
+domain.Event"
+eventNumbers
+q
+
+Ä Ä(&
+%3java.lang.Integer"__id*D
+
+__unknown_file ((*&
+
+otherdomain.Event"
+eventNumber*
+2
+1*ä
+startingBlockx x("ä
+á
+w w(
+
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+objjava.lang.ObjectW
+U
+x x(!
+objjava.lang.Object"__annotation*"
+
+__unknown_file (
+
+%4*	
+5
+6
+8*!
+4~
+ ~("
+~ ~(
+""*º
+5} }(åâ
+} }(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*,
+
+__unknown_file (
+domain.Event2
+getClass()ïí
+} }("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
+
+__unknown_file (
+
+objjava.lang.Object2
+getClass()*
+3
+4*!
+6|
+ |("
+| |(
+""*!
+8z
+ z("
+z z(
+""*%
+1
+Ç	 Ç("
+
+Ç Ç(
+"":#
+x x(!
+objjava.lang.ObjectB
+domain.EventHP

@@ -1,0 +1,2 @@
+dataAccess.DataAccess#getEvents(Ljava/util/Date;)Ljava/util/List;
+hibernate.HibernateUtil#getSessionFactory()Lorg/hibernate/SessionFactory;
