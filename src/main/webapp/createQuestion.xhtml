@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui">
+
+<f:view>
+	<h:head>
+		<title>CreateQuestion</title>
+	</h:head>
+	<h:body>
+		<h:form>
+			<h3>Create Question</h3>
+			<table>
+				<tr>
+					<td>Date:</td>
+					<td><p:calendar id="fecha" value="#{create.fecha}"
+							navigator="true" mode="inline">
+							<p:ajax event="dateSelect" listener="#{create.onDateSelect}"
+								update="lista"></p:ajax>
+						</p:calendar></td>
+			
+					<td>Events:</td>
+					<td><h:selectOneMenu id="lista" value="#{create.evento}"
+						converter="omnifaces.SelectItemsConverter">
+						<f:selectItems value="#{create.eventos}" />
+					</h:selectOneMenu></td>
+				</tr>
+				</table>
+				<tr>
+					<td>Question:</td>
+					<td><h:inputText id="Cuestion" value="#{create.question}">
+						</h:inputText></td>
+				</tr>
+				<tr>
+					<td>Min bet:</td>
+					<td><h:inputText id="MinBet" value="#{create.minBet}">
+						</h:inputText></td>
+				</tr>
+		
+			<p>
+				<h:commandButton value="Aceptar" action="#{create.createQuestion}" />
+			</p>
+		</h:form>
+	</h:body>
+</f:view>
+</html>
