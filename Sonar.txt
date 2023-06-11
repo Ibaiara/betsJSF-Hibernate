@@ -13,6 +13,7 @@ sonar-scanner.bat \
   name: SonarCloud
 on:
   push:
+  
     branches:
       - master
   pull_request:
