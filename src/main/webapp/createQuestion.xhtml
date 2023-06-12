@@ -16,14 +16,14 @@
 			<table>
 			  <caption>Esta tabla muestra un calendario y un selectOneMenu con los eventos de cada dia</caption>
 				<tr>
-					<th>Date:</th>
+					<th id="header1">Date:</th>
 					<td><p:calendar id="fecha" value="#{create.fecha}"
 							navigator="true" mode="inline">
 							<p:ajax event="dateSelect" listener="#{create.onDateSelect}"
 								update="lista"></p:ajax>
 						</p:calendar></td>
 			
-					<th>Events:</th>
+					<th id="header2">Events:</th>
 					<td><h:selectOneMenu id="lista" value="#{create.evento}"
 						converter="omnifaces.SelectItemsConverter">
 						<f:selectItems value="#{create.eventos}" />
@@ -31,12 +31,12 @@
 				</tr>
 				</table>
 				<tr>
-					<th>Question:</th>
+					<th id="header3">Question:</th>
 					<td><h:inputText id="Cuestion" value="#{create.question}">
 						</h:inputText></td>
 				</tr>
 				<tr>
-					<th>Min bet:</th>
+					<th id="header4">Min bet:</th>
 					<td><h:inputText id="MinBet" value="#{create.minBet}">
 						</h:inputText></td>
 				</tr>
