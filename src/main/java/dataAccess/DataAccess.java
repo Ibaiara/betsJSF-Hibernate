@@ -48,6 +48,8 @@ public class DataAccess implements DataAccessInterface {
 		   month+=1;
 		   int year=today.get(Calendar.YEAR);
 		   if (month==12) { month=0; year+=1;}  
+		   
+		   
 	    
 			Event ev1=new Event("Atlético-Athletic", UtilDate.newDate(year,month,17));
 			Event ev2=new Event( "Eibar-Barcelona", UtilDate.newDate(year,month,17));
@@ -79,13 +81,15 @@ public class DataAccess implements DataAccessInterface {
 			Question q4;
 			Question q5;
 			Question q6;
+			
+			String ganar="¿Quién ganará el partido?";
 					
 			if (Locale.getDefault().equals(new Locale("es"))) {
-				q1=ev1.addQuestion("¿Quién ganará el partido?",1);
-				q2=ev1.addQuestion("¿Quién meterá el primer gol?",2);
+				q1=ev1.addQuestion(ganar,1);
+				q2=ev1.addQuestion(ganar,2);
 				q3=ev11.addQuestion("¿Quién ganará el partido?",1);
 				q4=ev11.addQuestion("¿Cuántos goles se marcarán?",2);
-				q5=ev17.addQuestion("¿Quién ganará el partido?",1);
+				q5=ev17.addQuestion(ganar,1);
 				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);
 			}
 			else if (Locale.getDefault().equals(new Locale("en"))) {

@@ -58,16 +58,16 @@ public class createQuestionsBean {
 		this.minBet = minBet;
 	}
 	
-	private BLFacade BL = FacadeBean.getBusinessLogic();
+	private BLFacade bl = FacadeBean.getBusinessLogic();
 		
 	public void onDateSelect(SelectEvent fecha) {
 		 
-		eventos = BL.getEvents(this.fecha);
+		eventos = bl.getEvents(this.fecha);
 		}
 	
 	public void createQuestion() throws EventFinished, QuestionAlreadyExist {
 			System.out.println(evento);
-			BL.createQuestion(evento, question, (float) minBet);
+			bl.createQuestion(evento, question, (float) minBet);
 			System.out.println("Pregunta creada correctamente!");
 		}
 }

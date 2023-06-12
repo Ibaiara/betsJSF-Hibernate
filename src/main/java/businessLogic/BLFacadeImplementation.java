@@ -1,9 +1,9 @@
 package businessLogic;
 //hola
 import java.util.Date;
+
 import java.util.List;
 import java.util.ResourceBundle;
-import java.util.Vector;
 
 
 
@@ -92,8 +92,8 @@ public class BLFacadeImplementation  implements BLFacade {
 	 * @return collection of dates
 	 */
 	public List<Date> getEventsMonth(Date date) {
-		List<Date>  dates=dbManager.getEventsMonth(date);
-		return dates;
+		return dbManager.getEventsMonth(date);
+		
 	}
 
 

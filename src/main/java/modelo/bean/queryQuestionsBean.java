@@ -76,7 +76,7 @@ private double minBet;
 	
 	public void onSelect(SelectEvent e) {
 		for (int i = 0; i<eventos.size(); i++) {
-			if (BL.getEvents(fecha).get(i).getEventNumber() == evento.getEventNumber()) {
+			if (BL.getEvents(fecha).get(i).getEventNumber().equals(evento.getEventNumber())) {
 				questions = BL.getEvents(fecha).get(i).getQuestions();
 				break;
 			}

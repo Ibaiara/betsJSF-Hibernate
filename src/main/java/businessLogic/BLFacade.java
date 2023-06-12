@@ -3,9 +3,9 @@ package businessLogic;
 
 
 import java.util.Date;
+
 import java.util.List;
 
-//import domain.Booking;
 import domain.Question;
 import domain.Event;
 import exceptions.EventFinished;
